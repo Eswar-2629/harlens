@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+# Real HAR captures contain secrets; never commit them. Samples are the exception.
+*.har
+!samples/*.har

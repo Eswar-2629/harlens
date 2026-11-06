@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "harlens"
+version = "0.1.0"
+description = "Offline security audit and sanitizer for HAR files"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+harlens = "harlens.cli:main"
+
+[tool.setuptools]
+packages = ["harlens"]
